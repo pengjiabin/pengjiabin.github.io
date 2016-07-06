@@ -6,21 +6,27 @@
 	<style type="text/css">
 
 div{width: 100px;
-height: 100px;
+    height: 100px;
 	background-color:red;
+	transition: 2s all ease;
 }
 
 
 div:hover{width:100px;
 	height: 100px;
 
-transition: width 2s;
+transition: 2s all ease;
 -moz-transition: width 2s; /* Firefox 4 */
 -webkit-transition: width 2s; /* Safari 和 Chrome */
 -o-transition: width 2s; /* Opera */
+
   -webkit-box-shadow: 50px 50px 100px 5px rgba(0,0,0,1);
     -moz-box-shadow: 50px 50px 100px 5px rgba(0,0,0,1);
-    box-shadow: 50px 50px 100px 5px rgba(194,0,0,1);
+    box-shadow:
+     2px -6px 5px 0px red,
+     2px 8px 5px 0px pink,
+     10px -2px 5px 0px blue,
+     -13px -2px 5px 0px yellow;
 
 }
 	</style>
